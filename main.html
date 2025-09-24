@@ -8,6 +8,35 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1 role="heading">My Accessible Portfolio</h1>
+
+  <!-- Navigation with ARIA role -->
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#about">About</a></li>
+      <li role="listitem"><a href="#projects">Projects</a></li>
+      <li role="listitem"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Image with ARIA role -->
+  <img role="img" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg" alt="Profile picture of Piyush">
+
+  <!-- Brief description -->
+  <p id="about">
+    Hi! My name is Piyush, and I am a passionate MERN full stack developer.  
+    I love solving problems, building efficient web applications, and continuously improving my skills to become a better developer every day.
+  </p>
+
+  <!-- List of skills with ARIA role -->
+  <h2 id="projects">My Skills</h2>
+  <ul role="list">
+    <li role="listitem">JavaScript (ES6+)</li>
+    <li role="listitem">React & Node.js</li>
+    <li role="listitem">MongoDB & Express</li>
+  </ul>
+
+  <p id="contact">📧 Contact me at: piyush@example.com</p>
     <script type="text/javascript" src="./script.js">
 </script>
 
